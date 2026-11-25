@@ -169,5 +169,5 @@ I'm always excited to learn, collaborate, exchange ideas, and explore new opport
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:756A9F,50:35466B,100:17233B&height=110&section=footer" width="100%"/>
+  <img src="./footer.svg" width="100%" alt="Midnight Stardust Footer"/>
 </p>
