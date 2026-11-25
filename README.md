@@ -1,5 +1,3 @@
-# AURELLIA NABILA RAHMA PUTRI
-
 <!-- PORTFOLIO HEADER -->
 
 <p align="center">
@@ -27,7 +25,7 @@
 
 ---
 
-## 01. ABOUT ME
+## ABOUT
 
 Hi! I'm **Aurellia Nabila Rahma Putri**, a Computer Engineering undergraduate student at **Universitas Jenderal Soedirman, Indonesia**.
 
@@ -35,16 +33,16 @@ I'm interested in exploring the intersection of software and hardware, developin
 
 My main areas of interest include:
 
-- **Web Development** — Developing responsive and functional web applications.
-- **Internet of Things** — Connecting devices, sensors, and real-time monitoring systems.
-- **Embedded Systems** — Exploring microcontrollers and hardware programming.
-- **Software Engineering** — Learning application development, system design, and problem-solving.
+- **Web Development** - Developing responsive and functional web applications.
+- **Internet of Things** - Connecting devices, sensors, and real-time monitoring systems.
+- **Embedded Systems** - Exploring microcontrollers and hardware programming.
+- **Software Engineering** - Learning application development, system design, and problem-solving.
 
 I believe that every project is an opportunity to learn something new, improve my skills, and create something meaningful.
 
 ---
 
-## 02. TECHNICAL SKILLS
+## TECHNICAL SKILLS
 
 ### Programming Languages
 
@@ -85,13 +83,13 @@ I believe that every project is an opportunity to learn something new, improve m
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌸 Donation Management Website</h3>
+      <h3>Donation Management Website</h3>
       <p>A collaborative web application for managing donated items, categories, donors, and recipients.</p>
       <p><code>Laravel</code> <code>React</code> <code>PHP</code> <code>MySQL</code></p>
       <a href="https://github.com/ourelliey/Kelompok2-ShiftD-ResponsiPemweb2Laravel">↗ View Project</a>
     </td>
     <td width="50%" valign="top">
-      <h3>🤖 IoT & Sensor Monitoring</h3>
+      <h3>IoT & Sensor Monitoring</h3>
       <p>Sensor data collection, MQTT communication, and real-time monitoring using microcontrollers.</p>
       <p><code>ESP32</code> <code>MQTT</code> <code>Python</code></p>
       <a href="https://github.com/ourelliey/H1H024066_Praktikum-IoT">↗ View Project</a>
@@ -99,13 +97,13 @@ I believe that every project is an opportunity to learn something new, improve m
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🐍 PokéCare – Ekans Training</h3>
+      <h3>PokéCare – Ekans Training</h3>
       <p>An object-oriented programming project focused on structured code and programming logic.</p>
       <p><code>PHP</code> <code>OOP</code></p>
       <a href="https://github.com/ourelliey/Aurellia-Nabila-Rahma-Putri_H1H024066_ResponsiPBO25">↗ View Project</a>
     </td>
     <td width="50%" valign="top">
-      <h3>⚡ Embedded Systems</h3>
+      <h3>Embedded Systems</h3>
       <p>Practical projects involving microcontroller programming and communication protocols.</p>
       <p><code>C++</code> <code>Arduino</code> <code>Embedded Systems</code></p>
       <a href="https://github.com/ourelliey/H1H024066_Praktikum-Sistem--Mikrokontroler">↗ View Project</a>
@@ -113,13 +111,13 @@ I believe that every project is an opportunity to learn something new, improve m
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>👗 Smart Pajama Conveyor</h3>
+      <h3>Smart Pajama Conveyor</h3>
       <p>An automated garment conveyor system with detection, counting, and PID-based motor speed control.</p>
       <p><code>ESP32</code> <code>Arduino</code> <code>PID</code> <code>IoT</code></p>
       <a href="https://github.com/fikririzqinfaizun/TugasBesar-InternetOfThings-Kelompok6">↗ View Project</a>
     </td>
     <td width="50%" valign="top">
-      <h3>💻 Laravel Web Projects</h3>
+      <h3>Laravel Web Projects</h3>
       <p>Web development exercises involving CRUD operations, backend logic, and database management.</p>
       <p><code>PHP</code> <code>Laravel</code> <code>Blade</code></p>
       <a href="https://github.com/ourelliey">↗ View Repositories</a>
@@ -129,7 +127,7 @@ I believe that every project is an opportunity to learn something new, improve m
 
 ---
 
-## 04. CURRENTLY EXPLORING
+## CURRENTLY EXPLORING
 
 - Advanced Laravel and React development.
 - Database management and API integration.
@@ -139,7 +137,7 @@ I believe that every project is an opportunity to learn something new, improve m
 
 ---
 
-## 05. GITHUB ANALYTICS
+## GITHUB ANALYTICS
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ourelliey&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=B9A8F5&icon_color=9CCBFA&text_color=D8DDF5&include_all_commits=true" height="165" />
@@ -152,7 +150,7 @@ I believe that every project is an opportunity to learn something new, improve m
 
 ---
 
-## 06. LET'S CONNECT
+## LET'S CONNECT
 
 I'm always excited to learn, collaborate, exchange ideas, and explore new opportunities in technology.
 
