@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="./header.svg" width="100%" alt="Aurellia Portfolio Banner"/>
+</p>
 <!-- ==================== PORTFOLIO HEADER ==================== -->
 
 <p align="center">
