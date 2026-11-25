@@ -1,147 +1,161 @@
-
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="180"
-     viewBox="0 0 1200 180">
+     width="1200" height="150"
+     viewBox="0 0 1200 150">
 
   <defs>
-    <!-- Midnight background -->
-    <linearGradient id="midnight" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="50%" stop-color="#17233B"/>
-      <stop offset="100%" stop-color="#25213D"/>
-    </linearGradient>
-
-    <!-- Lavender cosmic glow -->
-    <radialGradient id="lavenderGlow">
-      <stop offset="0%" stop-color="#756A9F" stop-opacity=".5"/>
-      <stop offset="55%" stop-color="#756A9F" stop-opacity=".15"/>
+    <!-- Soft lavender glow -->
+    <radialGradient id="lavender">
+      <stop offset="0%" stop-color="#756A9F" stop-opacity=".28"/>
+      <stop offset="65%" stop-color="#756A9F" stop-opacity=".08"/>
       <stop offset="100%" stop-color="#756A9F" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Blue cosmic glow -->
-    <radialGradient id="blueGlow">
-      <stop offset="0%" stop-color="#35466B" stop-opacity=".6"/>
+    <!-- Soft blue glow -->
+    <radialGradient id="blue">
+      <stop offset="0%" stop-color="#35466B" stop-opacity=".3"/>
       <stop offset="100%" stop-color="#35466B" stop-opacity="0"/>
     </radialGradient>
 
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="28"/>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="22"/>
     </filter>
-
-    <!-- Star texture -->
-    <pattern id="starField" width="100" height="90"
-             patternUnits="userSpaceOnUse">
-      <circle cx="15" cy="20" r="1.1" fill="#D8DDF5" opacity=".55"/>
-      <circle cx="65" cy="48" r=".8" fill="#B9A8F5" opacity=".6"/>
-      <circle cx="40" cy="75" r=".7" fill="#9CCBFA" opacity=".4"/>
-      <circle cx="90" cy="12" r=".6" fill="#D8DDF5" opacity=".4"/>
-    </pattern>
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="180" fill="url(#midnight)"/>
+  <!-- Transparent background: blends with GitHub -->
 
-  <!-- Moving Lavender Nebula -->
-  <g filter="url(#softGlow)">
-    <ellipse cx="250" cy="80" rx="220" ry="90"
-             fill="url(#lavenderGlow)">
+  <!-- Slowly moving cosmic light -->
+  <g filter="url(#glow)">
+    <ellipse cx="300" cy="65" rx="250" ry="65"
+             fill="url(#lavender)">
       <animate attributeName="cx"
-        values="250;550;950;250"
-        dur="30s"
-        repeatCount="indefinite"/>
-      <animate attributeName="cy"
-        values="80;110;65;80"
-        dur="24s"
-        repeatCount="indefinite"/>
+        values="300;650;950;300"
+        dur="32s" repeatCount="indefinite"/>
     </ellipse>
 
-    <ellipse cx="950" cy="90" rx="240" ry="85"
-             fill="url(#blueGlow)">
+    <ellipse cx="900" cy="80" rx="260" ry="60"
+             fill="url(#blue)">
       <animate attributeName="cx"
-        values="950;650;250;950"
-        dur="34s"
-        repeatCount="indefinite"/>
+        values="900;550;200;900"
+        dur="38s" repeatCount="indefinite"/>
     </ellipse>
   </g>
 
-  <!-- Subtle Star Background -->
-  <rect width="1200" height="180"
-        fill="url(#starField)" opacity=".7"/>
-
-  <!-- Floating Particles -->
+  <!-- Tiny blinking stars -->
   <g fill="#D8DDF5">
-    <circle cx="100" cy="45" r="1.5">
-      <animate attributeName="cy"
-        values="45;30;45"
-        dur="8s" repeatCount="indefinite"/>
+
+    <circle cx="55" cy="30" r="1.3">
       <animate attributeName="opacity"
-        values=".3;1;.3"
-        dur="7s" repeatCount="indefinite"/>
+        values=".15;1;.2;.8;.15"
+        dur="4s" begin="0s" repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="300" cy="130" r="1.8" fill="#B9A8F5">
-      <animate attributeName="cy"
-        values="130;110;130"
-        dur="11s" repeatCount="indefinite"/>
+    <circle cx="145" cy="95" r="1.5" fill="#B9A8F5">
       <animate attributeName="opacity"
-        values=".2;.9;.2"
-        dur="9s" repeatCount="indefinite"/>
+        values=".1;.9;.15;1;.1"
+        dur="5s" begin="1.2s" repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="530" cy="35" r="1.3" fill="#9CCBFA">
-      <animate attributeName="cy"
-        values="35;50;35"
-        dur="10s" repeatCount="indefinite"/>
+    <circle cx="230" cy="48" r="1">
       <animate attributeName="opacity"
-        values=".2;.8;.2"
-        dur="8s" repeatCount="indefinite"/>
+        values=".2;1;.2"
+        dur="3.5s" begin=".5s" repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="780" cy="145" r="1.7" fill="#B9A8F5">
-      <animate attributeName="cy"
-        values="145;125;145"
-        dur="12s" repeatCount="indefinite"/>
+    <circle cx="325" cy="118" r="1.5" fill="#9CCBFA">
       <animate attributeName="opacity"
-        values=".3;1;.3"
-        dur="9s" repeatCount="indefinite"/>
+        values=".1;1;.15"
+        dur="4.8s" begin="2s" repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="1050" cy="55" r="1.5">
-      <animate attributeName="cy"
-        values="55;35;55"
-        dur="9s" repeatCount="indefinite"/>
+    <circle cx="415" cy="24" r="1.2">
       <animate attributeName="opacity"
-        values=".2;.9;.2"
-        dur="8s" repeatCount="indefinite"/>
+        values=".2;1;.2"
+        dur="5.5s" begin=".8s" repeatCount="indefinite"/>
     </circle>
+
+    <circle cx="505" cy="85" r="1.4" fill="#B9A8F5">
+      <animate attributeName="opacity"
+        values=".1;.9;.1"
+        dur="4s" begin="1.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="610" cy="35" r="1.5">
+      <animate attributeName="opacity"
+        values=".2;1;.2"
+        dur="6s" begin=".3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="710" cy="112" r="1.2" fill="#9CCBFA">
+      <animate attributeName="opacity"
+        values=".1;1;.2"
+        dur="4.5s" begin="2.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="810" cy="42" r="1.5" fill="#B9A8F5">
+      <animate attributeName="opacity"
+        values=".2;1;.1"
+        dur="5s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="920" cy="90" r="1.2">
+      <animate attributeName="opacity"
+        values=".1;.9;.2"
+        dur="3.8s" begin="2.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1030" cy="27" r="1.5" fill="#9CCBFA">
+      <animate attributeName="opacity"
+        values=".1;1;.1"
+        dur="5.2s" begin=".6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1135" cy="105" r="1.4" fill="#B9A8F5">
+      <animate attributeName="opacity"
+        values=".2;1;.2"
+        dur="4.2s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1160" cy="48" r="1">
+      <animate attributeName="opacity"
+        values=".1;.8;.1"
+        dur="6s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+
   </g>
 
-  <!-- Static Center Typography -->
-  <g text-anchor="middle"
-     font-family="Georgia, serif"
+  <!-- Small twinkling star crosses -->
+  <g fill="#B9A8F5">
+    <path d="M380 50 L382 56 L388 58 L382 60 L380 66 L378 60 L372 58 L378 56Z">
+      <animate attributeName="opacity"
+        values=".15;1;.15"
+        dur="4s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M850 100 L852 105 L857 107 L852 109 L850 114 L848 109 L843 107 L848 105Z">
+      <animate attributeName="opacity"
+        values=".1;.9;.1"
+        dur="5s" begin="1.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Footer signature -->
+  <g text-anchor="middle" font-family="Georgia, serif"
      font-style="italic">
 
-    <text x="600" y="76"
+    <text x="600" y="72"
           fill="#D8DDF5"
-          font-size="23"
-          opacity=".9">
-      Small steps,
+          font-size="21"
+          opacity=".95">
+      Small steps, meaningful progress.
     </text>
 
-    <text x="600" y="111"
-          fill="#B9A8F5"
-          font-size="29">
-      meaningful progress.
+    <text x="600" y="98"
+          fill="#756A9F"
+          font-size="11"
+          letter-spacing="4">
+      ✦ AURELLIA NABILA RAHMA PUTRI ✦
     </text>
 
-  </g>
-
-  <!-- Decorative small stars -->
-  <g fill="#B9A8F5">
-    <path d="M390 88 L393 95 L400 98 L393 101 L390 108 L387 101 L380 98 L387 95Z"
-          opacity=".7"/>
-    <path d="M810 88 L812 94 L818 97 L812 100 L810 106 L807 100 L801 97 L807 94Z"
-          opacity=".7"/>
   </g>
 
 </svg>
