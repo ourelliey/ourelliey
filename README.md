@@ -18,11 +18,6 @@
   <img src="https://img.shields.io/badge/Status-Open%20to%20Collaborate-244C45?style=flat-square"/>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/UNIVERSITY-Universitas%20Jenderal%20Soedirman-343B55?style=flat-square"/>
-  <img src="https://img.shields.io/badge/MAJOR-Computer%20Engineering-494064?style=flat-square"/>
-</p>
-
 ---
 
 ## ABOUT ME
@@ -33,10 +28,10 @@ I'm interested in exploring the intersection of software and hardware, developin
 
 My main areas of interest include:
 
-- **Web Development** — Developing responsive and functional web applications.
-- **Internet of Things** — Connecting devices, sensors, and real-time monitoring systems.
-- **Embedded Systems** — Exploring microcontrollers and hardware programming.
-- **Software Engineering** — Learning application development, system design, and problem-solving.
+- **Web Development** - Developing responsive and functional web applications.
+- **Internet of Things** - Connecting devices, sensors, and real-time monitoring systems.
+- **Embedded Systems** - Exploring microcontrollers and hardware programming.
+- **Software Engineering** - Learning application development, system design, and problem-solving.
 
 I believe that every project is an opportunity to learn something new, improve my skills, and create something meaningful.
 
