@@ -1,4 +1,4 @@
-<!-- ==================== PORTFOLIO HEADER ==================== -->
+ <!-- ==================== PORTFOLIO HEADER ==================== -->
 
 <p align="center">
   <img src="./header.svg" width="100%" alt="Aurellia Nabila Portfolio Banner"/>
@@ -135,12 +135,34 @@ I believe that every project is an opportunity to learn something new, improve m
 ## GITHUB ANALYTICS
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ourelliey&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=B9A8F5&icon_color=9CCBFA&text_color=D8DDF5&include_all_commits=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ourelliey&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=B9A8F5&icon_color=9CCBFA&text_color=D8DDF5" height="165"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ourelliey&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=B9A8F5&text_color=D8DDF5" height="165"/>
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=ourelliey&theme=tokyonight&hide_border=true&background=0D1117&ring=B9A8F5&fire=F3A6C8&currStreakLabel=9CCBFA" width="65%"/>
+</p>
+
+---
+
+## CONTRIBUTION SNAKE
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/ourelliey/ourelliey/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/ourelliey/ourelliey/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      alt="GitHub Contribution Snake Animation"
+      src="https://raw.githubusercontent.com/ourelliey/ourelliey/output/github-contribution-grid-snake.svg"
+      width="100%"
+    />
+  </picture>
 </p>
 
 ---
@@ -157,10 +179,6 @@ I'm always excited to learn, collaborate, exchange ideas, and explore new opport
   <a href="mailto:relalurelrel@gmail.com">Email</a>
   &nbsp; ✦ &nbsp;
   <a href="https://www.instagram.com/owrelliey/">Instagram</a>
-</p>
-
-<p align="center">
-  <i>"Small steps, meaningful progress, endless possibilities."</i>
 </p>
 
 <p align="center">
