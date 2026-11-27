@@ -145,7 +145,7 @@ I believe that every project is an opportunity to learn something new, improve m
 
 ---
 
-## CONTRIBUTION SNAKE
+## GITHUB CONTRIBUTIONS
 
 <p align="center">
   <picture>
